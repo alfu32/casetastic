@@ -1,0 +1,15 @@
+{
+  "name": "casetastic",
+  "version": "1.0.0",
+  "description": "A utility to convert text between different cases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alfu32/casetastic.git"
+  },
+  "author": "alfu 32",
+  "license": "MIT"
+}
