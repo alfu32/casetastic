@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A utility to convert text between different cases",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public",
+    "scope": "@alfu32org"
+  },
   "scripts": {
     "test": "echo \"No tests\""
   },
