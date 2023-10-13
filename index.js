@@ -1,7 +1,7 @@
 /**
  * Class for handling text transformations like camelCase, snake_case, etc.
  */
-class TextFormatter {
+class Casetastic {
   /**
    * @param {string[]} tokens - Array of words for transformation.
    * @param {string} [prefix] - Optional prefix mainly for Hungarian Notation.
