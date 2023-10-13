@@ -1,4 +1,4 @@
-declare class TextFormatter {
+declare class Casetastic {
   constructor(tokens: string[], prefix?: string);
 
   static fromCamelCase(str: string): TextFormatter;
