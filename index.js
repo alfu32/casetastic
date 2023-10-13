@@ -208,3 +208,5 @@ toBackslashCase() {
 }
 }
 const TextFormatter=Casetastic
+
+module.exports={Casetastic,TextFormatter}
