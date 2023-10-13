@@ -1,6 +1,6 @@
 {
   "name": "casetastic",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A utility to convert text between different cases",
   "main": "index.js",
   "publishConfig": {
