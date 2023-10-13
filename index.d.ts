@@ -1,4 +1,4 @@
-declare class Casetastic {
+export declare class Casetastic {
   constructor(tokens: string[], prefix?: string);
 
   static fromCamelCase(str: string): TextFormatter;
@@ -26,4 +26,4 @@ declare class Casetastic {
   toBackslashCase(): string;
 }
 
-export = TextFormatter;
+export type TextFormatter = Casetastic;
