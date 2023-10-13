@@ -207,3 +207,4 @@ toBackslashCase() {
   return this.tokens.join('\\');
 }
 }
+const TextFormatter=Casetastic
