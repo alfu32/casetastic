@@ -41,3 +41,18 @@ console.log(formatter.toPascalCase());  // Outputs: SomeText
 ```
 
 ## Typescript Usage
+
+### TypeScript Usage Example
+
+```typescript
+import TextFormatter from 'casetastic';
+
+// Convert from camelCase
+const formatter = TextFormatter.fromCamelCase("someCamelCaseText");
+console.log(formatter.toSnakeCase());  // Outputs: some_camel_case_text
+
+// Convert to PascalCase
+const formatter2 = new TextFormatter(["some", "text"]);
+console.log(formatter2.toPascalCase());  // Outputs: SomeText
+```
+
