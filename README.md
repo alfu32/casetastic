@@ -1,10 +1,10 @@
 # casetastic
 ## Short description
-The `TextFormatter` class is a comprehensive utility designed to handle various text transformations, such as converting text between camelCase, snake_case, PascalCase, and more.
+The `Casetastic` class is a comprehensive utility designed to handle various text transformations, such as converting text between camelCase, snake_case, PascalCase, and more.
 
 ## Functional specifications
 
-### TextFormatter Class
+### Casetastic Class
 - The class is designed to take in tokens (words) and convert them between different cases/formats.
 - Contains static methods to create a new instance of the class based on various text formats:
   - `fromCamelCase`
@@ -29,15 +29,15 @@ npm install casetastic
 ## Usage examples
 
 ```javascript
-const TextFormatter = require('casetastic');
+const Casetastic = require('casetastic');
 
 // Convert from camelCase
-let formatter = TextFormatter.fromCamelCase("someCamelCaseText");
+let formatter = Casetastic.fromCamelCase("someCamelCaseText");
 console.log(formatter.toSnakeCase());  // Outputs: some_camel_case_text
 
 // Convert to PascalCase
-formatter = new TextFormatter(["some", "text"]);
+formatter = new Casetastic(["some", "text"]);
 console.log(formatter.toPascalCase());  // Outputs: SomeText
 ```
 
-## Typescript
+## Typescript Usage
