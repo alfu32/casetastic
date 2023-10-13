@@ -38,6 +38,6 @@ console.log(formatter.toSnakeCase());  // Outputs: some_camel_case_text
 // Convert to PascalCase
 formatter = new TextFormatter(["some", "text"]);
 console.log(formatter.toPascalCase());  // Outputs: SomeText
-
-This markdown is designed to give a brief overview, functional details, installation instructions, and usage examples for the `TextFormatter` class. Adjust as needed for further clarity or specificity.
 ```
+
+## Typescript
